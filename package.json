@@ -1,0 +1,40 @@
+{
+	"name": "baby-on-hell",
+	"version": "0.0.1",
+	"description": "Baby on hell!",
+	"homepage": "https://babyonhell.app",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/RobRotell/baby-on-hell.git"
+	},
+	"bugs": {
+		"url": "https://github.com/RobRotell/baby-on-hell/issues"
+	},
+	"author": "Rob Rotell",
+	"license": " GPL-3.0",
+	"type": "module",
+	"main": "index.js",
+	"scripts": {
+		"dev": "vite --port 6561",
+		"build": "vite build",
+		"preview": "vite preview"
+	},
+	"dependencies": {
+		"modern-normalize": "^2.0.0"
+	},
+	"devDependencies": {
+		"browserslist-to-esbuild": "^2.1.1",
+		"eslint": "^9.15.0",
+		"eslint-config-prettier": "^9.1.0",
+		"eslint-plugin-import": "^2.31.0",
+		"postcss-load-config": "^6.0.1",
+		"postcss-nesting": "^13.0.1",
+		"prettier": "^3.3.3",
+		"vite": "^5.4.11",
+		"vite-plugin-minify": "^2.0.1",
+		"vite-plugin-radar": "^0.9.6"
+	},
+	"browserslist": [
+		"defaults, not dead"
+	]
+}
